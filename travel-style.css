@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Taviraj&display=swap');
+
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background: url('back14.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.photos
+{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-left: 143px;
+}
+.photos > img
+{
+    margin: 45px;
+}
+
+.rezumat
+{
+    float: right;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    align-content:left;
+    margin-top: 80px;
+    width: 900px;
+    margin-right: 80px;
+}
+.rezumat > article.art0
+{
+    margin-top: 117px;
+}
+
+.title
+{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000;
+    font-style: italic;
+    margin: 0;
+    margin-top: 60px;
+    border-bottom: 2px solid #9c6868;
+}
+
+ 
+.trip1
+{
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Taviraj', serif;
+    font-weight: 50;
+    margin-bottom: 20px;
+
+}
+.trip1-title
+{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: none;
+    color: black; 
+}
+.trip1-title:hover
+{
+    color: #cf6b6b;
+    text-decoration: underline;
+}
+#img-thai
+{
+    height: 350px; 
+    width: 300px;
+}
+
+.trip2
+{
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Taviraj', serif;
+    font-weight: 50;
+}
+.trip2-title
+{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: none;
+    color:black
+}
+.trip2-title:hover
+{
+    color: #cf6b6b;
+    text-decoration: underline;
+}
+#img-grecia
+{
+    height: 350px; 
+    width: 300px;
+}
+
+
+.trip3
+{
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Taviraj', serif;
+    font-weight: 50;
+}
+.trip3-title
+{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: none;
+    color: black; 
+}
+.trip3-title:hover
+{
+    color: #cf6b6b;
+    text-decoration: underline;
+}
+#img-barcelona
+{
+    height: 350px; 
+    width: 300px;
+}
+
+
+
+
+@media only screen and (max-width: 768px)
+{
+    header
+    {
+        flex-direction: column;
+    }
+    .title
+    {
+        display: block;
+        
+    }
+    .extra-title
+    {text-indent: inherit;}
+    .photos
+    {
+        margin: 45px 0px;
+        display:block;
+        margin: auto;
+        padding:0px 15px;
+    }
+    .photos img
+    {
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+    .menu
+    {
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width:100%;
+    }
+    .menu-item
+    {
+        padding: 15px 0px;
+    }
+    .menu-item-active
+    {
+        position:relative
+    }
+
+    .rezumat
+    {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        padding: 0px 15px;
+    }
+    .trip1-text
+    {
+        font-size: 80%;
+     
+    }.trip2-text
+    {
+        font-size: 80%;
+     
+    }.trip3-text
+    {
+        font-size: 80%;
+     
+    }
+    
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1280px)
+{
+    header
+    {
+        flex-direction: column;
+    }
+    .title
+    {
+        display: block;
+    }
+    .extra-title
+    {text-indent: inherit;}
+    .photos
+    {
+        margin: 45px 0px;
+        display:block;
+        margin: auto;
+        padding:0px 15px;
+        width:30%;
+        float: left;
+    }
+    .photos img
+    {
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 20px;
+    
+    }
+    .menu
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width:100%;
+    }
+    .menu-item-active
+    {
+        position: relative;
+    }
+    .rezumat
+    {
+        float: left;
+        width: 60%;
+        padding: 0px 15px;
+        padding-left: 5%;
+    }
+    .trip1-text
+    {
+        font-size: 65%;
+     
+    }
+    .trip2-text
+    {
+        font-size: 65%;
+     
+    }
+    .trip3-text
+    {
+        font-size: 65%;
+     
+    }
+}

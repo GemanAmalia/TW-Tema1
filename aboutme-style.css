@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Taviraj&display=swap');
+
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background: url('back14.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+#title-principal
+{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000;
+    font-style: italic;
+    margin: 0;
+    margin-top: 60px;
+    border-bottom: 2px solid  #9c6868;
+}
+
+.about-me-text
+{
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Taviraj', serif;
+    margin-top: 50px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+
+.poza1
+{
+    width: 20%;
+    float: right;
+    margin: auto 100px;
+}
+
+.work
+{
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'GFS Didot', serif;
+    margin-right: 200px;
+}
+.about-me-subtitle1
+{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 200px;  
+}
+.poza2
+{
+    width: 30%;
+    margin: auto 135px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.contact
+{
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'GFS Didot', serif;
+    margin-left: 200px;
+}
+.about-me-subtitle2
+{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.igfb
+{
+    text-decoration: none;
+    color: #6b4646;
+}
+.igfb:hover
+{
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+@media only screen and (max-width: 768px)
+{
+    header
+    {
+        flex-direction: column;
+    }
+    .poza1
+    {
+        width: 70%;  
+        padding: 0px 5px;
+    }
+    .poza2
+    {
+        width: 70%;  
+        padding: 0px 5px;
+    }
+    .extra-title
+    {text-indent: inherit;}
+    .menu
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .work
+    {
+        display: block;
+        margin-left: 10px;
+    }
+    .contact
+    {
+        display: block;
+        margin-left: 10px;
+
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1280px)
+{
+    header
+    {
+        flex-direction: column;
+    }
+    .aboutme-photos
+    {
+        display: block;
+        max-width: 80%;
+        height: auto;
+        position: relative;
+    }
+    .work
+    {
+        display: block;
+        margin-left: 10px;
+    }
+    .contact
+    {
+        display: block;
+        margin-left: 10px;
+
+    }
+}
+
+@media only screen and (min-width: 1280px)
+{
+    .aboutme-photos
+    {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+}
